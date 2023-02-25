@@ -1,0 +1,93 @@
+/* Didn't seem to be able to get font import to work */
+@import url('http://fonts.googleapis.com/css?family=Roboto'); 
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+    padding: 5px;
+    margin: 9px;
+}
+
+.header-link{
+    color: #444444;
+    text-decoration: none;
+}
+
+.nav-menu-box-pipe{
+    width: 150px;
+    color: #ebebeb;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    padding: 25px;
+    margin: 50px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    /* padding: 25px;
+    margin: 50px; */
+}
+
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaaaaa;
+    background-color: #f7f6f6;
+    padding: 5px;
+    margin:9px;
+}
+
+.footer-menu-box-one{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaaaaa;
+    background-color: #f7f6f6;
+    padding: 5px;
+    margin:9px;
+}
+
+.footer-menu-box-two{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaaaaa;
+    background-color: #f7f6f6;
+    padding: 5px;
+    margin:9px;
+}
+
+.footer-menu-box-pipe{
+    margin: 50px
+}
+
+.footer-menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-menu-horizontal-line{
+    width: 50px;
+}
+
+.footer-link{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.logo{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
